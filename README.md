@@ -24,7 +24,7 @@ These instructions will help you set up and run the Flask application on your lo
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/JWT-Login-flask.git
+   git clone https://github.com/your-username/Oauth-practice.git
    cd JWT-Login-flask
    ```
 
