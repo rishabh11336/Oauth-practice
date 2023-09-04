@@ -8,7 +8,6 @@ This repository contains a Flask web application with [Oauth login system](#Oaut
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Getting Started
@@ -67,19 +66,6 @@ click 🖱️ ``Login_with_Google``
 
 ![image](https://github.com/rishabh11336/Oauth-practice/assets/67859818/a85b2f2f-9cc4-4c1a-894e-37529596d4b1)
 
-
-
-
-## Contributing
-
-If you want to contribute make proper login system using sqlite3 db and sqlalchmy.<br>
-We welcome contributions from the community. To contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature/bugfix: `git checkout -b feature-name`.
-3. Commit your changes: `git commit -m "Add feature"`.
-4. Push to the branch: `git push origin feature-name`.
-5. Submit a pull request detailing your changes.
 
 ## License
 
