@@ -60,13 +60,13 @@ python3 app.py
 ```
 <hr />
 
+![Screenshot 2023-09-05 021941](https://github.com/rishabh11336/Oauth-practice/assets/67859818/cf767209-5efc-4b82-a2ef-a843a6d3973e)
 
-![image1](https://github.com/rishabh11336/Oauth-practice/assets/67859818/ee445faa-4838-4e8e-a0ad-94a45657d8db)
 
 click 🖱️ ``Login_with_Google``
 
 
-![image1](https://github.com/rishabh11336/Oauth-practice/assets/67859818/62278c47-a6b7-4c31-af30-ad2b7f07b02b)
+![Screenshot 2023-09-05 023058](https://github.com/rishabh11336/Oauth-practice/assets/67859818/6fc2c1a0-0d83-4d9c-aef6-25ea9e451d19)
 
 
 ## License
