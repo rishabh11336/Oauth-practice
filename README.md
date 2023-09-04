@@ -1,6 +1,6 @@
 # Oauth-practice
 
-This repository contains a Flask web application with [Oauth login system].
+This repository contains a Flask web application with [Oauth login system](#Oauth-practice).
 
 ## Table of Contents
 
