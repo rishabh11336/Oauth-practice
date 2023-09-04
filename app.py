@@ -1,14 +1,21 @@
+'''
+This is a Flask web application that allows users to sign in with their Google account and fetch
+their profile information.
+'''
 from flask import Flask, url_for, session, redirect, render_template, abort
 from authlib.integrations.flask_client import OAuth
+from CLIENT_SECRET import OAUTH2_CLIENT_SECRET
 import os
 import json
 import requests
 
 app = Flask(__name__)
 
+# The `appConf` dictionary is used to store various configuration settings for the Flask web
+# application.
 appConf = {
     "OAUTH2_CLIENT_ID": "24970654811-ej6ha7spdgk5iatp91ghosa7kgthu15m.apps.googleusercontent.com",
-    "OAUTH2_CLIENT_SECRET": "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",
+    "OAUTH2_CLIENT_SECRET": OAUTH2_CLIENT_SECRET,
     "OAUTH2_META_URL": "https://accounts.google.com/.well-known/openid-configuration",
     "FLASK_SECRET": os.urandom(24),
     "FLASK_PORT": 8080
