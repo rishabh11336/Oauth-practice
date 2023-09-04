@@ -64,7 +64,7 @@ python3 app.py
 
 click 🖱️ ``Login_with_Google``
 
-![image](https://github.com/rishabh11336/Oauth-practice/assets/67859818/a85b2f2f-9cc4-4c1a-894e-37529596d4b1)
+![image](https://github.com/rishabh11336/Oauth-practice/assets/67859818/62278c47-a6b7-4c31-af30-ad2b7f07b02b)
 
 
 ## License
