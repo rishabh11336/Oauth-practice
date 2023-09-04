@@ -59,6 +59,12 @@ def googleCallback():
 
 @app.route("/logout")
 def logout():
+    if "user" in session:
+        # Revoke the access token
+        access_token = session["user"]["access_token"]
+        revoke_token_url = f"https://accounts.google.com/o/oauth2/revoke?token={access_token}"
+        requests.get(revoke_token_url)
+
     session.pop("user", None)
     return redirect(url_for("index"))
 
