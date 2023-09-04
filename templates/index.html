@@ -8,6 +8,7 @@
 <body>
     <center><h1>Hello World!</h1></center>
     {% if session %}
+    <h1>Welcome {{session.userinfo.name}}!</h1>
     <p><a href="{{url_for('logout')}}">Logout</a></p>
     <div><pre>{{pretty}}</pre></div>
     {% else %}
